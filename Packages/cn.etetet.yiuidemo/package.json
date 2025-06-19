@@ -1,0 +1,16 @@
+﻿{
+  "name": "cn.etetet.yiuidemo",
+  "displayName": "ET.YIUI.Demo",
+  "version": "0.0.0",
+  "unity": "2022.3",
+  "description": "yiui demo",
+  "author": {
+    "name": "YiHang"
+  },
+  "repository": {},
+  "relatedPackages": {},
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ET-Packages"
+  }
+}

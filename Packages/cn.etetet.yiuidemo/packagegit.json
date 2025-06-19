@@ -1,0 +1,11 @@
+﻿{
+    "Id": 0,
+    "Name": "yiuidemo",
+    "ScriptsReferences": 
+    {
+        "Hotfix": [""],
+        "HotfixView": [""],
+        "Model": [""],
+        "ModelView": [""]
+    }
+}

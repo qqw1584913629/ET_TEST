@@ -206,6 +206,12 @@
         "cn.etetet.yiuiframework": "2.0.0"
       }
     },
+    "cn.etetet.yiuidemo": {
+      "version": "file:cn.etetet.yiuidemo",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "cn.etetet.yiuieffect": {
       "version": "file:cn.etetet.yiuieffect",
       "depth": 0,
@@ -298,6 +304,15 @@
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       }
+    },
+    "com.boxqkrtm.ide.cursor": {
+      "version": "https://github.com/liyingsong99/com.unity.ide.cursor-et.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "hash": "2ff42a4c32bdbe24a12d24762bf43da7cdccc76a"
     },
     "com.etetet.init": {
       "version": "file:com.etetet.init",
