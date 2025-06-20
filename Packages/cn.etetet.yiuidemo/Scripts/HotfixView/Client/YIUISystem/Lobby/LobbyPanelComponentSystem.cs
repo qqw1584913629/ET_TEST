@@ -27,13 +27,12 @@ namespace ET.Client
 
         #region YIUIEvent开始
 
-        [YIUIInvoke(LobbyPanelComponent.OnEventEnterMapInvoke)]
-        private static async ETTask OnEventEnterMapInvoke(this LobbyPanelComponent self)
+        [YIUIInvoke(LobbyPanelComponent.OnEventEnterGameInvoke)]
+        private static async ETTask OnEventEnterGameInvoke(this LobbyPanelComponent self)
         {
             await EnterMapHelper.EnterMapAsync(self.Root());
             await self.UIPanel.CloseAsync();
         }
-
         #endregion YIUIEvent结束
     }
 }

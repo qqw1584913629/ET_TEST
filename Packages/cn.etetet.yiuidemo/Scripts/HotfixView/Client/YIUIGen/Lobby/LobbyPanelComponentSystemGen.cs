@@ -37,8 +37,8 @@ namespace ET.Client
             self.UIPanel.Priority = 0;
             self.UIPanel.CachePanelTime = 10;
 
-            self.u_EventEnterMap = self.UIBase.EventTable.FindEvent<UITaskEventP0>("u_EventEnterMap");
-            self.u_EventEnterMapHandle = self.u_EventEnterMap.Add(self,LobbyPanelComponent.OnEventEnterMapInvoke);
+            self.u_EventEnterGame = self.UIBase.EventTable.FindEvent<UITaskEventP0>("u_EventEnterGame");
+            self.u_EventEnterGameHandle = self.u_EventEnterGame.Add(self,LobbyPanelComponent.OnEventEnterGameInvoke);
 
         }
     }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using YIUIFramework;
 using System.Collections.Generic;
@@ -22,9 +22,9 @@ namespace ET.Client
         public YIUIWindowComponent UIWindow => u_UIWindow;
         public EntityRef<YIUIPanelComponent> u_UIPanel;
         public YIUIPanelComponent UIPanel => u_UIPanel;
-        public UITaskEventP0 u_EventEnterMap;
-        public UITaskEventHandleP0 u_EventEnterMapHandle;
-        public const string OnEventEnterMapInvoke = "LobbyPanelComponent.OnEventEnterMapInvoke";
+        public UITaskEventP0 u_EventEnterGame;
+        public UITaskEventHandleP0 u_EventEnterGameHandle;
+        public const string OnEventEnterGameInvoke = "LobbyPanelComponent.OnEventEnterGameInvoke";
 
     }
 }
