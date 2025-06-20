@@ -22,21 +22,22 @@ namespace ET.Client
         private static async ETTask<bool> YIUIOpen(this LoginPanelComponent self)
         {
             await ETTask.CompletedTask;
+            self.UIPanel.OpenViewAsync<LoginViewComponent>().NoContext();
             return true;
         }
 
         #region YIUIEvent开始
 
-        [YIUIInvoke(LoginPanelComponent.OnEventLoginInvoke)]
-        private static async ETTask OnEventLoginInvoke(this LoginPanelComponent self)
-        {
-            Log.Info($"登录");
-            GlobalComponent globalComponent = self.Root().GetComponent<GlobalComponent>();
-            await LoginHelper.Login(self.Root(),
-                globalComponent.GlobalConfig.Address,
-                self.u_ComAccount.text,
-                self.u_ComPassword.text);
-        }
+        // [YIUIInvoke(LoginPanelComponent.OnEventLoginInvoke)]
+        // private static async ETTask OnEventLoginInvoke(this LoginPanelComponent self)
+        // {
+        //     Log.Info($"登录");
+        //     GlobalComponent globalComponent = self.Root().GetComponent<GlobalComponent>();
+        //     await LoginHelper.Login(self.Root(),
+        //         globalComponent.GlobalConfig.Address,
+        //         self.u_ComInputFieldAccountTMP_InputField.text,
+        //         self.u_ComInputFieldPasswordTMP_InputField.text);
+        // }
 
         #endregion YIUIEvent结束
     }

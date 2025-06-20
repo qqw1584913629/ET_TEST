@@ -1,11 +1,19 @@
-﻿using System;
+using System;
 using UnityEngine;
 using YIUIFramework;
 using System.Collections.Generic;
 
 namespace ET.Client
 {
-
+    /// <summary>
+    /// 由YIUI工具自动创建 请勿修改
+    /// 当前Panel所有可用view枚举
+    /// </summary>
+    public enum ELoginPanelViewEnum
+    {
+        LoginView = 1,
+        LoginSignUpView = 2,
+    }
     /// <summary>
     /// 由YIUI工具自动创建 请勿修改
     /// </summary>
@@ -22,11 +30,6 @@ namespace ET.Client
         public YIUIWindowComponent UIWindow => u_UIWindow;
         public EntityRef<YIUIPanelComponent> u_UIPanel;
         public YIUIPanelComponent UIPanel => u_UIPanel;
-        public UnityEngine.UI.InputField u_ComAccount;
-        public UnityEngine.UI.InputField u_ComPassword;
-        public UITaskEventP0 u_EventLogin;
-        public UITaskEventHandleP0 u_EventLoginHandle;
-        public const string OnEventLoginInvoke = "LoginPanelComponent.OnEventLoginInvoke";
 
     }
 }

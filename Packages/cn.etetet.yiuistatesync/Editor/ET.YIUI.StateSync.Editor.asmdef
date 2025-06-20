@@ -4,7 +4,10 @@
     "references": [
         "ET.YooAssets",
         "ET.YooAssets.Editor",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "ET.Core",
+        "ET.MemoryPack",
+        "ET.SourceGeneratorAttribute"
     ],
     "includePlatforms": [
         "Editor"

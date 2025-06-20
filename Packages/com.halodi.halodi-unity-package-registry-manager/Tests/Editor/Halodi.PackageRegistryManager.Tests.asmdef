@@ -3,7 +3,8 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Halodi.PackageRegistryManager.Editor"
+        "Halodi.PackageRegistryManager.Editor",
+        "Artees.SemanticVersioning"
     ],
     "includePlatforms": [
         "Editor"
