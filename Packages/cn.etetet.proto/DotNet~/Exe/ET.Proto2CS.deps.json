@@ -426,18 +426,12 @@
           "NLog": "5.3.2"
         },
         "runtime": {
-          "ET.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ET.Core.dll": {}
         }
       },
       "ET.SourceGeneratorAttribute/1.0.0": {
         "runtime": {
-          "ET.SourceGeneratorAttribute.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ET.SourceGeneratorAttribute.dll": {}
         }
       }
     }

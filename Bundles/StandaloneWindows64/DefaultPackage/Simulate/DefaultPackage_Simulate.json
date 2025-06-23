@@ -8,7 +8,7 @@
     "BuildPipeline": "EditorSimulateBuildPipeline",
     "PackageName": "DefaultPackage",
     "PackageVersion": "Simulate",
-    "PackageNote": "2025/6/21 2:04:35",
+    "PackageNote": "2025/6/23 11:27:36",
     "AssetList": [
         {
             "Address": "YIUIConstAsset",
@@ -399,7 +399,7 @@
         {
             "BundleName": "defaultpackage_assets_gameres_yiui.bundle",
             "UnityCRC": 0,
-            "FileHash": "55b128c295a11d014f248a92f7ecb9d4",
+            "FileHash": "593abe429b99f89bf18463c9d452fd7c",
             "FileCRC": "00000000",
             "FileSize": 2772,
             "Encrypted": false,
@@ -409,9 +409,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_demores_bundles_unit_unit.bundle",
             "UnityCRC": 0,
-            "FileHash": "263dd97bab5993554d047550dbed3510",
+            "FileHash": "7bfad48ee9644256bd4248696dbc161b",
             "FileCRC": "00000000",
-            "FileSize": 1480,
+            "FileSize": 1430,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -419,9 +419,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_demores_scenes_map1.bundle",
             "UnityCRC": 0,
-            "FileHash": "e2077a8f68eec6be37ebf1ee5d12a595",
+            "FileHash": "6db178f858b56c84ce61a5d68b849b36",
             "FileCRC": "00000000",
-            "FileSize": 225044,
+            "FileSize": 216922,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -429,9 +429,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_demores_scenes_map2.bundle",
             "UnityCRC": 0,
-            "FileHash": "5f4e1822210ac3b56df5e8e3657512ff",
+            "FileHash": "776ca243cddd814ac2ace30ffa0d6c3a",
             "FileCRC": "00000000",
-            "FileSize": 73309,
+            "FileSize": 70649,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -439,7 +439,7 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_excel_config_bytes_c.bundle",
             "UnityCRC": 0,
-            "FileHash": "741e6109eeaafc93ea626eca5221cd97",
+            "FileHash": "0cb4eb00d0930940149d25bf3831a6b2",
             "FileCRC": "00000000",
             "FileSize": 659,
             "Encrypted": false,
@@ -449,9 +449,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_loader_bundles_code.bundle",
             "UnityCRC": 0,
-            "FileHash": "4e014817492b6edfa111eac8db428614",
+            "FileHash": "28767cf64209c786de1cf32b013640d4",
             "FileCRC": "00000000",
-            "FileSize": 1352688,
+            "FileSize": 4819968,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -459,9 +459,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_statesync_bundles_ui_uihelp.bundle",
             "UnityCRC": 0,
-            "FileHash": "6ba5ae1388b3f75b7826be62f04308a2",
+            "FileHash": "4adc336b5f7e3f6a4fa2510539014344",
             "FileCRC": "00000000",
-            "FileSize": 5144,
+            "FileSize": 4966,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -469,9 +469,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_statesync_bundles_ui_uilobby.bundle",
             "UnityCRC": 0,
-            "FileHash": "4bf489f9c4b1ef58389302bf6030df9d",
+            "FileHash": "62861c5b816fde47fe32382ac3ea6c57",
             "FileCRC": "00000000",
-            "FileSize": 11376,
+            "FileSize": 11002,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -479,9 +479,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_statesync_bundles_ui_uilogin.bundle",
             "UnityCRC": 0,
-            "FileHash": "553ddf52a59ce24c9ca7bfa62d203bdd",
+            "FileHash": "c01f740df0e85d05e34014d859317c03",
             "FileCRC": "00000000",
-            "FileSize": 29774,
+            "FileSize": 28796,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -489,9 +489,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiui3ddisplay_assets_gameres_yiui_modeldisplay_model.bundle",
             "UnityCRC": 0,
-            "FileHash": "5ec69985ea888ecaaa716ae11e0137ea",
+            "FileHash": "f0f0e09f0a642cb9bd063ddd27853450",
             "FileCRC": "00000000",
-            "FileSize": 13797,
+            "FileSize": 13364,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -499,9 +499,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiui3ddisplay_assets_gameres_yiui_modeldisplay_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "d45ebb5583ad73f6aae3cd4a587fbaff",
+            "FileHash": "1dac67c31d146c91a45cbcf815e0427e",
             "FileCRC": "00000000",
-            "FileSize": 33517,
+            "FileSize": 32363,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -509,9 +509,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuidemo_assets_gameres_yiui_lobby_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "5251749801097b4a984fdfa3bb864613",
+            "FileHash": "ec7cf1bba3c29f42c624e4845509837e",
             "FileCRC": "00000000",
-            "FileSize": 398924,
+            "FileSize": 415127,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -519,9 +519,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuidemo_assets_gameres_yiui_login_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "ea64348ac03d1a7054be6a2ce3b36562",
+            "FileHash": "fc675060a3ac1da10756d6eb7c9970fc",
             "FileCRC": "00000000",
-            "FileSize": 230809,
+            "FileSize": 238908,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -529,9 +529,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuidemo_assets_gameres_yiui_main_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "979202f8cee797c7d10ca48c59e1e831",
+            "FileHash": "6ba173bf15beb5fff121f51d0a1b1aa7",
             "FileCRC": "00000000",
-            "FileSize": 723074,
+            "FileSize": 750140,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -539,9 +539,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuiframework_assets_gameres_yiui_yiui_prefabs_close.bundle",
             "UnityCRC": 0,
-            "FileHash": "252c9ea3a09f129a6654b09da7967f22",
+            "FileHash": "5f6babd7f9e2f538aac0ff80c8d9a4bb",
             "FileCRC": "00000000",
-            "FileSize": 48303,
+            "FileSize": 46900,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -549,9 +549,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuiframework_assets_gameres_yiui_yiui_prefabs_common.bundle",
             "UnityCRC": 0,
-            "FileHash": "3fe7516fe3232f82f41c55e68255713b",
+            "FileHash": "7c5691d98befa4056ca2e5326f324a70",
             "FileCRC": "00000000",
-            "FileSize": 13298,
+            "FileSize": 12784,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -559,9 +559,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuigm_assets_gameres_yiui_gm_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "5b3e2b0f4e00f011e9902ffb31ac4caa",
+            "FileHash": "79deb7c4024770bb021ecaedba6f751a",
             "FileCRC": "00000000",
-            "FileSize": 271583,
+            "FileSize": 261436,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -569,9 +569,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuiloopscrollrectasync_assets_gameres_yiui_loopscrollrectdemo_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "73387a8c66d1f9c7635784c5360e2692",
+            "FileHash": "9669a6b0def3b1262877ea1bce23c551",
             "FileCRC": "00000000",
-            "FileSize": 134758,
+            "FileSize": 129909,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -579,9 +579,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuireddot_assets_gameres_reddot.bundle",
             "UnityCRC": 0,
-            "FileHash": "13ff3a76ea493bc09e6595e41360d149",
+            "FileHash": "7f1dbb14dffcdb23cf59de278642f979",
             "FileCRC": "00000000",
-            "FileSize": 9830,
+            "FileSize": 9348,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -589,9 +589,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuireddot_assets_gameres_yiui_reddot_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "6cae375d3d25fcffd200ffd0fa0818e6",
+            "FileHash": "9721051552cf178faf4f1f36b030c200",
             "FileCRC": "00000000",
-            "FileSize": 508138,
+            "FileSize": 488922,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -599,9 +599,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuistatesync_assets_gameres_yiui_common_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "2d951cba836f740d3b2ac4ff22bcd031",
+            "FileHash": "c9117eab6fb5552e1016ee1931fb3154",
             "FileCRC": "00000000",
-            "FileSize": 10876,
+            "FileSize": 10503,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -609,9 +609,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuitips_assets_gameres_yiui_tips_animation.bundle",
             "UnityCRC": 0,
-            "FileHash": "3c2059dba139e5725433d40d37544ad4",
+            "FileHash": "d5c2434358fa8ce014832f32db61f7cd",
             "FileCRC": "00000000",
-            "FileSize": 4655,
+            "FileSize": 4464,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -619,9 +619,9 @@
         {
             "BundleName": "defaultpackage_packages_cn_etetet_yiuitips_assets_gameres_yiui_tips_prefabs.bundle",
             "UnityCRC": 0,
-            "FileHash": "660703a572b66196db2fea5919fec5de",
+            "FileHash": "d740a523138f97f039786096dadf87e3",
             "FileCRC": "00000000",
-            "FileSize": 123615,
+            "FileSize": 118767,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
