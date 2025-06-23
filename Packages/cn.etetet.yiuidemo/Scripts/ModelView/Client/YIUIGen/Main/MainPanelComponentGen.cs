@@ -22,6 +22,9 @@ namespace ET.Client
         public YIUIWindowComponent UIWindow => u_UIWindow;
         public EntityRef<YIUIPanelComponent> u_UIPanel;
         public YIUIPanelComponent UIPanel => u_UIPanel;
+        public UITaskEventP0 u_EventOpenShop;
+        public UITaskEventHandleP0 u_EventOpenShopHandle;
+        public const string OnEventOpenShopInvoke = "MainPanelComponent.OnEventOpenShopInvoke";
 
     }
 }

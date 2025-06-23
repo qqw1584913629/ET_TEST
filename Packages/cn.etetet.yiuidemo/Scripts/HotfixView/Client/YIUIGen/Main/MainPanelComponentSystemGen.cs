@@ -37,6 +37,8 @@ namespace ET.Client
             self.UIPanel.Priority = 0;
             self.UIPanel.CachePanelTime = 10;
 
+            self.u_EventOpenShop = self.UIBase.EventTable.FindEvent<UITaskEventP0>("u_EventOpenShop");
+            self.u_EventOpenShopHandle = self.u_EventOpenShop.Add(self,MainPanelComponent.OnEventOpenShopInvoke);
 
         }
     }

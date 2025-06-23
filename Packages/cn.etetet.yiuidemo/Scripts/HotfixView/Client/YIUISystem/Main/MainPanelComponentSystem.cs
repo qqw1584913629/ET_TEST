@@ -26,6 +26,13 @@ namespace ET.Client
         }
 
         #region YIUIEvent开始
+        
+        [YIUIInvoke(MainPanelComponent.OnEventOpenShopInvoke)]
+        private static async ETTask OnEventOpenShopInvoke(this MainPanelComponent self)
+        {
+            self.YIUISceneRoot().OpenPanelAsync<ShopPanelComponent>().NoContext();
+            await ETTask.CompletedTask;
+        }
         #endregion YIUIEvent结束
     }
 }
