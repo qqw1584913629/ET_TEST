@@ -22,6 +22,13 @@ namespace ET.Client
         private static void Destroy(this Item_ChestComponent self)
         {
         }
+        
+        public static void Refresh(this Item_ChestComponent self, ShopItemData data)
+        {
+        }
+        public static void Select(this Item_ChestComponent self, bool select)
+        {
+        }
 
         #region YIUIEvent开始
         #endregion YIUIEvent结束

@@ -30,7 +30,7 @@ namespace ET.Client
             self.u_UIBase = self.GetParent<YIUIChild>();
             self.u_UIWindow = self.UIBase.GetComponent<YIUIWindowComponent>();
             self.u_UIPanel = self.UIBase.GetComponent<YIUIPanelComponent>();
-            self.UIWindow.WindowOption = EWindowOption.None;
+            self.UIWindow.WindowOption = EWindowOption.HaveIOpenAllowOpen;
             self.UIPanel.Layer = EPanelLayer.Panel;
             self.UIPanel.PanelOption = EPanelOption.TimeCache;
             self.UIPanel.StackOption = EPanelStackOption.VisibleTween;
@@ -38,6 +38,8 @@ namespace ET.Client
             self.UIPanel.CachePanelTime = 10;
 
             self.u_DataCurrentSelect = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueInt>("u_DataCurrentSelect");
+            self.u_UIYIUIBack_Home = self.UIBase.CDETable.FindUIOwner<ET.Client.YIUIBack_HomeComponent>("YIUIBack_Home");
+            self.u_UIYIUIClose_Black = self.UIBase.CDETable.FindUIOwner<ET.Client.YIUICloseCommonComponent>("YIUIClose_Black");
 
         }
     }

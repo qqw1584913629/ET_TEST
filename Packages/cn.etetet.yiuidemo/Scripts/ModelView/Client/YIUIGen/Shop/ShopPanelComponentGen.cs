@@ -32,6 +32,10 @@ namespace ET.Client
         public EntityRef<YIUIPanelComponent> u_UIPanel;
         public YIUIPanelComponent UIPanel => u_UIPanel;
         public YIUIFramework.UIDataValueInt u_DataCurrentSelect;
+        public EntityRef<ET.Client.YIUIBack_HomeComponent> u_UIYIUIBack_Home;
+        public ET.Client.YIUIBack_HomeComponent UIYIUIBack_Home => u_UIYIUIBack_Home;
+        public EntityRef<ET.Client.YIUICloseCommonComponent> u_UIYIUIClose_Black;
+        public ET.Client.YIUICloseCommonComponent UIYIUIClose_Black => u_UIYIUIClose_Black;
 
     }
 }

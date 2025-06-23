@@ -14,4 +14,13 @@ namespace ET.Client
     {
 
     }
+    [EnableClass]
+    public class ShopItemData
+    {
+        public string Name;
+        public int Price;
+        public bool IsAd;
+        public bool IsPopular;
+        public int Icon;
+    }
 }

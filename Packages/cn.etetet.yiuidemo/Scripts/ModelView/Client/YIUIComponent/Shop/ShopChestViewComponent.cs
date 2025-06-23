@@ -12,6 +12,8 @@ namespace ET.Client
     /// </summary>
     public partial class ShopChestViewComponent : Entity
     {
-
+        public List<ShopItemData> ShopItemDataList;
+        public EntityRef<YIUILoopScrollChild> u_LoopScrollChild;
+        public YIUILoopScrollChild LoopScrollChild => u_LoopScrollChild;
     }
 }

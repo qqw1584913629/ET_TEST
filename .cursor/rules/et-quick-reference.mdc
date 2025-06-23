@@ -1,0 +1,92 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# ET框架快速参考指南
+
+## 核心原则
+- **中文**：所有注释和AI回复都用中文
+- **ECS架构**：Entity(数据) + System(逻辑)
+- **禁止假设性代码**：必须是完整可执行的代码
+
+## 目录结构快速模板
+```
+Packages/cn.etetet.{包名}/
+└── Scripts/
+    ├── Model/        # Entity定义 (不可热更)
+    ├── ModelView/    # UI Entity (不可热更) 
+    ├── Hotfix/       # System逻辑 (可热更)
+    └── HotfixView/   # UI System (可热更)
+```
+
+## Entity快速模板
+```csharp
+namespace ET.Client  // 或 ET, ET.Server
+{
+    /// <summary>
+    /// [功能的中文描述]
+    /// </summary>
+    [ComponentOf(typeof(ParentType))]  // 父级约束
+    public class ExampleComponent : Entity, IAwake, IDestroy
+    {
+        // 只能有数据字段，不能有方法
+        public int Value;
+        public string Name;
+    }
+}
+```
+
+## System快速模板
+```csharp
+namespace ET.Client  // 或 ET, ET.Server
+{
+    /// <summary>
+    /// [System的中文描述]
+    /// </summary>
+    [FriendOf(typeof(ExampleComponent))]
+    [EntitySystemOf(typeof(ExampleComponent))]
+    public static partial class ExampleComponentSystem
+    {
+        [EntitySystem]
+        private static void Awake(this ExampleComponent self)
+        {
+            // 初始化逻辑
+        }
+
+        [EntitySystem]
+        private static void Destroy(this ExampleComponent self)
+        {
+            // 清理逻辑
+        }
+
+        public static void DoSomething(this ExampleComponent self)
+        {
+            // 业务方法
+        }
+    }
+}
+```
+
+## 关键特性
+- `[ComponentOf(typeof(Parent))]` - Entity父级约束
+- `[EntitySystemOf(typeof(Entity))]` - System对应Entity
+- `[FriendOf(typeof(Entity))]` - 访问Entity私有字段
+- `[EntitySystem]` - 生命周期方法标记
+
+## 命名空间规则
+- `ET` - 共享代码
+- `ET.Client` - 客户端代码  
+- `ET.Server` - 服务器代码
+
+## 生命周期接口
+- `IAwake` - 初始化
+- `IAwake<A>` - 带参数初始化
+- `IDestroy` - 销毁
+- `IUpdate` - 更新循环
+
+## 常见错误避免
+1. ❌ Entity中定义方法
+2. ❌ System忘记加特性
+3. ❌ 生命周期方法不是private static
+4. ❌ 忘记实现IAwake接口
