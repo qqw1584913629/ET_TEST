@@ -89,6 +89,14 @@ MonoBehaviour:
         FilterRuleName: CollectPrefab
         AssetTags: 
         UserData: 
+      - CollectPath: Assets/Layer Lab/GUI Pro-FantasyRPG/ResourcesData/Sprites/Component/Chest
+        CollectorGUID: c3d35c2db856e4b8aa351761f86182f7
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
     - GroupName: Unit
       GroupDesc: 
       AssetTags: 

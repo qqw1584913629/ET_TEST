@@ -23,6 +23,7 @@ namespace ET.Client
         public YIUIFramework.UIDataValueBool u_DataIsPopular;
         public YIUIFramework.UIDataValueBool u_DataIsSelect;
         public YIUIFramework.UIDataValueBool u_DataIsAd;
+        public YIUIFramework.UIDataValueInt u_DataPrice;
 
     }
 }

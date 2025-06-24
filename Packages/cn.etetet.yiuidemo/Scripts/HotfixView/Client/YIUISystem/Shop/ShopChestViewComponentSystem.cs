@@ -51,7 +51,6 @@ namespace ET.Client
         {
             self.LoopScrollChild.ClearSelect();
             await self.LoopScrollChild.SetDataRefresh(self.ShopItemDataList, 0);
-            await ETTask.CompletedTask;
             return true;
         }
 

@@ -32,6 +32,7 @@ namespace ET.Client
             self.u_DataIsPopular = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsPopular");
             self.u_DataIsSelect = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsSelect");
             self.u_DataIsAd = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsAd");
+            self.u_DataPrice = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueInt>("u_DataPrice");
 
         }
     }
