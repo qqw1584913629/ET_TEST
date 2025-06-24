@@ -18,6 +18,11 @@ namespace ET.Client
 
         public EntityRef<YIUIChild> u_UIBase;
         public YIUIChild UIBase => u_UIBase;
+        public YIUIFramework.UIDataValueString u_DataItemName;
+        public YIUIFramework.UIDataValueString u_DataIcon;
+        public YIUIFramework.UIDataValueBool u_DataIsPopular;
+        public YIUIFramework.UIDataValueBool u_DataIsSelect;
+        public YIUIFramework.UIDataValueBool u_DataIsAd;
 
     }
 }

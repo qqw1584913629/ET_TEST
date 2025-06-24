@@ -1,5 +1,4 @@
-﻿#if TextMeshPro
-using Sirenix.OdinInspector;
+﻿using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
 
@@ -49,4 +48,3 @@ namespace YIUIFramework
         }
     }
 }
-#endif

@@ -21,6 +21,6 @@ namespace ET.Client
         public int Price;
         public bool IsAd;
         public bool IsPopular;
-        public int Icon;
+        public string Icon;
     }
 }

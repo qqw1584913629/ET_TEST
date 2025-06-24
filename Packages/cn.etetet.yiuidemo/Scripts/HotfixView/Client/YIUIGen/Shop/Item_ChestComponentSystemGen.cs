@@ -27,6 +27,11 @@ namespace ET.Client
         {
             self.u_UIBase = self.GetParent<YIUIChild>();
 
+            self.u_DataItemName = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueString>("u_DataItemName");
+            self.u_DataIcon = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueString>("u_DataIcon");
+            self.u_DataIsPopular = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsPopular");
+            self.u_DataIsSelect = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsSelect");
+            self.u_DataIsAd = self.UIBase.DataTable.FindDataValue<YIUIFramework.UIDataValueBool>("u_DataIsAd");
 
         }
     }
